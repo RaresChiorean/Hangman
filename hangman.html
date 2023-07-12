@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <div  class='mainContainer' id="container">
+        <h1 id="heading1">Let's play a game</h1>
+        <p id="categoryPara">Please choose a category</p>
+        <div class="mainContainerButtons">
+            <button class="displayNone" id="homeBtn">Home</button>
+            <button class="displayNone" id="resetBtn">Reset</button>
+        </div>
+        <div class="chooseButtons" id="chooseBtn"></div>
+        <div class="hgContainer displayNone" id="hangmanDrawing">
+            <div id="hangmanPainting">
+            <img src="img/hangman1.png" alt="hangman" id="gameImg" class="displayNone">
+        </div>
+        </div>
+       
+        <div class= 'ltrContainer displayNone' id="letterContainer"></div>
+    
+
+    </div> 
+    <script src="hangman.js"></script>
+</body>
+</html>
